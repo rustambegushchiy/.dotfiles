@@ -1,0 +1,46 @@
+{
+	"layer": "up",
+	"position": "up",
+	"height": 40,
+	
+	"modules-left": ["hyprland/workspaces"],
+	"modules-center": ["tray"],
+	"modules-right": ["wireplumber", "battery", "clock"],
+	
+	"hyprland/workspaces":
+	{
+		"format": "{name}",
+		"on-click": "activate",
+		"max-length": 40
+	},
+	"tray":
+	{
+		"icon-size": 20,
+		"spacing": 20
+	},
+	"wireplumber":
+	{
+		"format": "{volume}% {icon}",
+		"format-muted": "X",
+		"format-icons": ["", "", ""]
+	},
+	"battery":
+	{
+		"bat": "BAT1",
+		"interval": 100,
+		"states":
+		{
+			"warning": 20,
+			"critical": 10
+		},
+		"format": "{capacity}% {icon}",
+		"format-icons": ["","","","",""],
+		"max-length": 25,
+		"tooltip": false
+	},
+	"clock":
+	{
+		"format": "{:%H:%M}",
+		"tooltip": false
+	}
+}

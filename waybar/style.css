@@ -1,0 +1,126 @@
+* {
+	font-family: Ubuntu;  
+	font-size: 20px;
+}
+window#waybar {
+	background: transparent;
+}
+tooltip {
+	background: white;
+
+	border-radius: 20px;
+	border: 0px;	
+	
+	box-shadow: inherit;
+	text-shadow: inherit;
+	transition: 0;
+}
+tooltip label {
+	color: black;
+}
+#workspaces {	
+	background: rgba(0, 0, 0, 0.3);
+	
+	border-radius: 0px 0px 20px 20px;
+	border: 0px;
+}
+#workspaces button {
+	padding: 0px;
+	min-width: 40px;
+	border: 0px;
+}
+#workspaces button.active {
+	background: white;
+	
+	border-radius: 0px 0px 20px 20px;
+}
+#workspaces button:not(.active) {
+	color: white;
+}
+#workspaces button:hover {
+	color: black;
+	background: white;
+	
+	border-radius: 0px 0px 20px 20px;
+	
+	box-shadow: inherit;
+	text-shadow: inherit;
+	transition: 0;
+}
+#tray {
+	background: rgba(0, 0, 0, 0.3);
+	
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-radius: 0px 0px 20px 20px;
+}
+#tray menu {
+	background: rgba(0, 0, 0, 0.3);
+
+	padding: 0;
+	margin: 0;
+
+	border-radius: 20px;	
+
+	box-shadow: inherit;
+	text-shadow: inherit;
+	-unico-inner-stroke-width: 0;
+}
+#tray menu menuitem {
+	color: white;
+	background: transparent;
+
+	box-shadow: inherit;
+	text-shadow: inherit;
+	-unico-inner-stroke-width: 0;
+}
+#tray menu menuitem:hover {
+	color: black;
+	background: white;
+	
+	border-radius: 20px;
+	
+	box-shadow: inherit;
+	text-shadow: inherit;
+	-unico-inner-stroke-width: 0;
+}
+#wireplumber {
+	color: white;
+	background: rgba(0, 0, 0, 0.3);
+	
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-radius: 0px 0px 20px 20px;
+}
+#wireplumber:hover {
+	color: black;
+	background: white;
+}
+#battery {	
+	color: white;
+	background: rgba(0, 0, 0, 0.3);
+	
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-radius: 0px 0px 20px 20px;
+}
+#battery:hover {
+	color: black;
+	background: white;
+}
+#clock {
+	color: white;
+	background: rgba(0, 0, 0, 0.3);
+	
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-radius: 0px 0px 20px 20px;
+}
+#clock:hover {
+	color: black;
+	background: white;
+}

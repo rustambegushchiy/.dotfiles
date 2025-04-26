@@ -1,0 +1,41 @@
+* {
+	font-family: Ubuntu;
+}
+window
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	
+	border-radius: 30px;
+	border: 2px solid rgba(199, 21, 133, 1);
+}
+#input
+{
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(255, 255, 255, 1);
+
+	margin: 5px;
+
+	outline: none;
+	border: none;
+    	box-shadow: none;
+}
+#inner-box
+{
+	margin: 10px;
+}
+#entry
+{
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(255, 255, 255, 1);
+	
+	margin: 10px;
+}
+#entry:selected
+{
+	background-color: rgba(199, 21, 133, 1);
+
+	border-radius: 20px;
+	outline: none;
+	border: none;
+    	box-shadow: none;
+}

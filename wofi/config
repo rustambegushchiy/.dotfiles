@@ -1,0 +1,7 @@
+show = drun
+prompt = Run:
+insensitive = true
+term = kitty
+allow_images = true
+columns = 1
+lines = 15
