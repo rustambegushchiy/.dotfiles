@@ -1,0 +1,17 @@
+[Unit]
+Description=Hyprland Wayland Compositor
+
+[Service]
+ExecStart=/usr/bin/hyprland
+Environment=XDG_SESSION_TYPE=wayland
+Environment=XDG_CURRENT_DESKTOP=Hyprland
+Environment=GBM_BACKEND=nvidia-drm
+Environment=__GLX_VENDOR_LIBRARY_NAME=nvidia
+Nice=-5
+IOSchedulingClass=best-effort
+IOSchedulingPriority=0
+LimitNICE=-20
+
+[Install]
+WantedBy=default.target
+
