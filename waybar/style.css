@@ -1,126 +1,81 @@
 * {
-	font-family: Ubuntu;  
-	font-size: 20px;
+	font-family: JetBrains Mono;
+	font-size: 18px;
+	border-radius: 0px;
+	border: none;
 }
+
 window#waybar {
 	background: transparent;
 }
-tooltip {
-	background: white;
 
-	border-radius: 20px;
-	border: 0px;	
-	
-	box-shadow: inherit;
-	text-shadow: inherit;
-	transition: 0;
-}
-tooltip label {
-	color: black;
-}
-#workspaces {	
-	background: rgba(0, 0, 0, 0.3);
-	
-	border-radius: 0px 0px 20px 20px;
-	border: 0px;
+  /******************/
+ /*** LEFT SIGHT ***/
+/******************/
+
+#workspaces {
+	margin: 5px 0 5px 5px;
 }
 #workspaces button {
-	padding: 0px;
-	min-width: 40px;
-	border: 0px;
+	padding: 0;
+	min-width: 30px;
 }
 #workspaces button.active {
 	background: white;
-	
-	border-radius: 0px 0px 20px 20px;
+	color: black;
 }
 #workspaces button:not(.active) {
+	background: black;
 	color: white;
 }
 #workspaces button:hover {
-	color: black;
 	background: white;
-	
-	border-radius: 0px 0px 20px 20px;
-	
-	box-shadow: inherit;
-	text-shadow: inherit;
-	transition: 0;
-}
-#tray {
-	background: rgba(0, 0, 0, 0.3);
-	
-	padding-left: 10px;
-	padding-right: 10px;
-
-	border-radius: 0px 0px 20px 20px;
-}
-#tray menu {
-	background: rgba(0, 0, 0, 0.3);
-
-	padding: 0;
-	margin: 0;
-
-	border-radius: 20px;	
+	color: black;
 
 	box-shadow: inherit;
 	text-shadow: inherit;
-	-unico-inner-stroke-width: 0;
+	transition: 0;	
 }
-#tray menu menuitem {
-	color: white;
-	background: transparent;
 
-	box-shadow: inherit;
-	text-shadow: inherit;
-	-unico-inner-stroke-width: 0;
-}
-#tray menu menuitem:hover {
-	color: black;
-	background: white;
-	
-	border-radius: 20px;
-	
-	box-shadow: inherit;
-	text-shadow: inherit;
-	-unico-inner-stroke-width: 0;
-}
-#wireplumber {
-	color: white;
-	background: rgba(0, 0, 0, 0.3);
-	
-	padding-left: 10px;
-	padding-right: 10px;
+  /**************/
+ /*** CENTER ***/
+/**************/
 
-	border-radius: 0px 0px 20px 20px;
-}
-#wireplumber:hover {
-	color: black;
-	background: white;
-}
-#battery {	
-	color: white;
-	background: rgba(0, 0, 0, 0.3);
-	
-	padding-left: 10px;
-	padding-right: 10px;
-
-	border-radius: 0px 0px 20px 20px;
-}
-#battery:hover {
-	color: black;
-	background: white;
-}
 #clock {
+	background: black;
 	color: white;
-	background: rgba(0, 0, 0, 0.3);
-	
-	padding-left: 10px;
-	padding-right: 10px;
 
-	border-radius: 0px 0px 20px 20px;
+	margin: 5px 5px 5px 0;
+	padding: 0 5px 0 5px; 
 }
 #clock:hover {
-	color: black;
 	background: white;
+	color: black;
+}
+
+  /*******************/
+ /*** RIGHT SIGHT ***/
+/*******************/
+
+#wireplumber {
+	background: black;
+	color: white;
+	
+	margin: 5px 5px 5px 0;
+	padding: 0 12px 0 5px; 
+}
+#wireplumber:hover {
+	background: white;
+	color: black;
+}
+#battery {
+	background: black;
+	color: white;
+
+	margin: 5px 5px 5px 0;
+	padding: 0 12px 0 5px; 
+}
+#battery:hover {
+	background: white;
+	color: black;
 }
