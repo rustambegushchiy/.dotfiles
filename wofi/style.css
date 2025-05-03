@@ -1,41 +1,39 @@
 * {
-	font-family: Ubuntu;
+	font-family: jetBrains Mono;
+	font-size: 18px;
 }
-window
-{
-	background-color: rgba(0, 0, 0, 0.5);
+#inner-box {
+	background: black;
+}
+#outer-box {
+	background: black;
 	
-	border-radius: 30px;
-	border: 2px solid rgba(199, 21, 133, 1);
+	border: 5px solid #ff4b33;
 }
-#input
-{
-	background-color: rgba(0, 0, 0, 0);
-	color: rgba(255, 255, 255, 1);
-
-	margin: 5px;
+#entry {
+	background: black;
+}
+#entry:selected {
+	background: #ff4b33;
+	color: black;	
 
 	outline: none;
 	border: none;
     	box-shadow: none;
 }
-#inner-box
-{
-	margin: 10px;
-}
-#entry
-{
-	background-color: rgba(0, 0, 0, 0);
-	color: rgba(255, 255, 255, 1);
-	
-	margin: 10px;
-}
-#entry:selected
-{
-	background-color: rgba(199, 21, 133, 1);
+#input {
+	background: black;
+	color: white;
 
-	border-radius: 20px;
+	margin: 5px;	
+
 	outline: none;
 	border: none;
     	box-shadow: none;
+}
+#text {
+	color: white;
+}
+#text:selected {
+	color: black;
 }

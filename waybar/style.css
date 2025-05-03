@@ -6,12 +6,13 @@
 }
 
 window#waybar {
-	background: transparent;
+	background: black;
+	border: 5px solid #ff4b33;
 }
 
-  /******************/
- /*** LEFT SIGHT ***/
-/******************/
+  /*****************/
+ /*** LEFT SIDE ***/
+/*****************/
 
 #workspaces {
 	margin: 5px 0 5px 5px;
@@ -21,7 +22,7 @@ window#waybar {
 	min-width: 30px;
 }
 #workspaces button.active {
-	background: white;
+	background: #ff4b33;
 	color: black;
 }
 #workspaces button:not(.active) {
@@ -29,7 +30,7 @@ window#waybar {
 	color: white;
 }
 #workspaces button:hover {
-	background: white;
+	background: #ff4b33;
 	color: black;
 
 	box-shadow: inherit;
@@ -49,13 +50,13 @@ window#waybar {
 	padding: 0 5px 0 5px; 
 }
 #clock:hover {
-	background: white;
+	background: #ff4b33;
 	color: black;
 }
 
-  /*******************/
- /*** RIGHT SIGHT ***/
-/*******************/
+  /******************/
+ /*** RIGHT SIDE ***/
+/******************/
 
 #wireplumber {
 	background: black;
@@ -65,7 +66,7 @@ window#waybar {
 	padding: 0 12px 0 5px; 
 }
 #wireplumber:hover {
-	background: white;
+	background: #ff4b33;
 	color: black;
 }
 #battery {
@@ -76,6 +77,28 @@ window#waybar {
 	padding: 0 12px 0 5px; 
 }
 #battery:hover {
-	background: white;
+	background: #ff4b33;
+	color: black;
+}
+#custom-reboot {	
+	background: black;
+	color: white;
+
+	margin: 5px 5px 5px 0;
+	min-width: 30px;
+}
+#custom-reboot:hover {
+	background: #ff4b33;
+	color: black;
+}
+#custom-poweroff {	
+	background: black;
+	color: white;
+
+	margin: 5px 5px 5px 0;
+	min-width: 30px;
+}
+#custom-poweroff:hover {
+	background: #ff4b33;
 	color: black;
 }
