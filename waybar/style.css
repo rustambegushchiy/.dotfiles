@@ -80,6 +80,17 @@ window#waybar {
 	background: #ff4b33;
 	color: black;
 }
+#custom-bluetooth {	
+	background: black;
+	color: white;
+
+	margin: 5px 5px 5px 0;
+	min-width: 30px;
+}
+#custom-bluetooth:hover {
+	background: #ff4b33;
+	color: black;
+}
 #custom-reboot {	
 	background: black;
 	color: white;

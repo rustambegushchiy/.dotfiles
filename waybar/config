@@ -5,7 +5,7 @@
 	
 	"modules-left": ["hyprland/workspaces"],
 	"modules-center": ["clock"],
-	"modules-right": ["wireplumber", "battery", "custom/reboot", "custom/poweroff"],
+	"modules-right": ["wireplumber", "battery", "custom/bluetooth", "custom/reboot", "custom/poweroff"],
 	
 	"hyprland/workspaces":
 	{
@@ -36,6 +36,15 @@
 		"format": "{capacity}% {icon}",
 		"format-icons": ["","","","",""],
 		"max-length": 25,
+		"tooltip": false
+	},
+	"custom/bluetooth":
+	{
+		"format": "{}",
+		"exec": "~/.config/waybar/bluetooth-status.sh",
+		"on-click-right": "kitty -e bluetoothctl",
+		"on-double-click": "~/.config/waybar/bluetooth-power.sh",
+		"interval": 5,
 		"tooltip": false
 	},
 	"custom/reboot":
